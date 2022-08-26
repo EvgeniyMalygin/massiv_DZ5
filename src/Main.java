@@ -49,16 +49,16 @@ public class Main {
             }
             i--;
         }
-        System.out.print("Дробный массив drob: ");
+        System.out.print("Дробный массив drop: ");
         i = drob.length-1;
         while (i >= 0) {
             if (i == 0)
             {
                 System.out.println(drob[i]);
             }else
-            {
-                System.out.print(drob[i] + ", ");
-            }
+                {
+                    System.out.print(drob[i] + ", ");
+                }
             i--;
         }
         System.out.print("Строковый массив str: ");
@@ -68,9 +68,9 @@ public class Main {
             {
                 System.out.println(str[i]);
             }else
-            {
-                System.out.print(str[i] + ", ");
-            }
+                {
+                    System.out.print(str[i] + ", ");
+                }
             i--;
         }
         // Задание 4
@@ -80,7 +80,7 @@ public class Main {
         {
             if (integer[j] % 2 != 0)
             {
-            integer[j] = integer[j] + 1;
+                integer[j] = integer[j] + 1;
             }
             System.out.print(integer[j] + " ");
         }
