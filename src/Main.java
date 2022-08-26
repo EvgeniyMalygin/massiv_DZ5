@@ -27,7 +27,7 @@ public class Main {
                 System.out.println(drob[i]);
             }
         }
-        System.out.print("Строчный массив str: ");
+        System.out.print("Строковый массив str: ");
         for (int i = 0; i < str.length; i++) {
             if (i < str.length - 1) {
                 System.out.print(str[i] + ", ");
@@ -72,6 +72,17 @@ public class Main {
                 System.out.print(str[i] + ", ");
             }
             i--;
+        }
+        // Задание 4
+        System.out.println("================= Задание 4 ==============");
+        System.out.print("Преобразованный целочисленный массив integer: ");
+        for (int j = 0; j < integer.length; j++)
+        {
+            if (integer[j] % 2 != 0)
+            {
+            integer[j] = integer[j] + 1;
+            }
+            System.out.print(integer[j] + " ");
         }
     }
 }
